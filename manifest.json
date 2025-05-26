@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "A11yMode: Accessibility On - by default.",
+  "version": "1.0",
+  "description": "Normalizes Unicode text on web pages, to make them more accessible: 𝐁𝐨𝐥𝐝 𝐭𝐞𝐱𝐭 -> Bold text",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
